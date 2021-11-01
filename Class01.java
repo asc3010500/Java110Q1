@@ -3,8 +3,8 @@ class CWin
 {
 	int radius;
 	int lng;
-   int width;
-   int height;
+	int width;
+ 	int height;
 
    
    void setr(int r)  // 半徑
@@ -27,7 +27,7 @@ class CWin
    void show()
    {
       System.out.println("半徑="+radius);
-      System.out.println("球形體積="+radius*radius*radius/3*4*3.14159);
+      System.out.println("球形體積="+radius*radius*radius*4/3*3.14159);
       System.out.println("長="+lng+",寬="+width+",高="+height);
       System.out.println("立方體表面積="+(lng*width*2+height*width*2+height*lng*2));
    }
@@ -52,7 +52,7 @@ public class Class01 {
 
 /**
 半徑=10
-球形體積=4184.59788
+球形體積=4187.7394699999995
 長=4,寬=5,高=6
 立方體表面積=148
  */
